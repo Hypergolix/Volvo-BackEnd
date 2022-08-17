@@ -31,6 +31,18 @@ namespace WebTestApp.Controllers
                 case "car":
                     parsedVehicle = new Car();
                     break;
+                case "bus":
+                    parsedVehicle = new Bus();
+                    break;
+                case "diplomat":
+                    parsedVehicle = new Diplomat();
+                    break;
+                case "military":
+                    parsedVehicle = new Military();
+                    break;
+                case "foreign":
+                    parsedVehicle = new Foreign();
+                    break;
                 default:
                     return BadRequest();
             }
